@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Anastasiia Fadeeva - Research Engineer at Google DeepMind & Machine Learning Specialist. Zürich, Switzerland.">
+  <meta name="author" content="Anastasiia Fadeeva">
+  <title>Anastasiia Fadeeva | Research Engineer</title>
+
+  <!-- FontAwesome for Premium Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Sticky Header -->
+  <header class="header">
+    <div class="container nav">
+      <ul class="nav__list">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#experience" class="nav__link">Experience</a></li>
+        <li><a href="#publications" class="nav__link">Publications</a></li>
+
+
+        <li><a href="#activities" class="nav__link">Activities</a></li>
+
+      </ul>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero reveal">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <span class="hero__subtitle">Research Engineer</span>
+          <h1>Anastasiia Fadeeva</h1>
+          <p class="hero__description">
+            I am a Research Engineer in the <strong>GenMedia Team</strong> at <strong>Google DeepMind</strong>, focusing
+            on post-training for video and image generation models (such as Omni, Veo and Nano Banana). Previously, I
+            worked on online handwriting foundation models in Google Research, and at Yandex, I worked on YandexGPT, where
+            I focused on improving the stability and efficiency of LLM pre-training.
+          </p>
+          <div class="hero__links">
+            <a href="#experience" class="btn btn--primary">View Experience</a>
+
+            <!-- Interactive Copy Email Badge -->
+            <div class="contact-badge" id="emailBadge" onclick="copyEmail()">
+              <i class="fa-regular fa-envelope"></i>
+              <span id="emailText">kottinew@gmail.com</span>
+              <span class="contact-badge__tooltip" id="emailTooltip">Click to copy</span>
+            </div>
+
+            <!-- GitHub Link -->
+            <a href="https://github.com/Fadeich" target="_blank" rel="noopener" class="contact-badge">
+              <i class="fa-brands fa-github"></i>
+              <span>GitHub</span>
+            </a>
+
+            <!-- LinkedIn Link -->
+            <a href="https://www.linkedin.com/in/anastasia-fadeeva-707616135/" target="_blank" rel="noopener"
+              class="contact-badge">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+
+            <!-- Location Badge -->
+            <div class="contact-badge" style="cursor: default;">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Zürich, Switzerland</span>
+            </div>
+
+
+          </div>
+        </div>
+        <div class="hero__image-wrapper">
+          <div class="hero__image-inner">
+            <img src="photo_asya.jpg" alt="Anastasiia Fadeeva" class="hero__image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container reveal">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+
+          <!-- Google DeepMind - GenMedia Team -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">Google DeepMind</h3>
+                <span class="timeline-role">Research Engineer, GenMedia Team</span>
+              </div>
+              <span class="timeline-date">Feb 2025 – Present</span>
+            </div>
+            <ul class="timeline-desc">
+              <li>Enhance large generative models using reinforcement learning (RL) post-training and research
+                optimization methods for multimodal generation.</li>
+              <li>Research and develop evaluation frameworks and data contributions to advance state-of-the-art image
+                and video generation models.</li>
+              <li>Mentor research interns, including directing a project on Direct Preference Optimization (DPO) for
+                image editing that resulted in a successfully accepted patent application.</li>
+            </ul>
+          </div>
+
+          <!-- Google Research / DeepMind - Digital Ink -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">Google Research / Google DeepMind</h3>
+                <span class="timeline-role">Research Engineer, Digital Ink Team</span>
+              </div>
+              <span class="timeline-date">June 2022 – Feb 2025</span>
+            </div>
+            <ul class="timeline-desc">
+              <li>Researched and built models for online handwriting recognition (published paper at <a
+                  href="https://dl.acm.org/doi/10.1145/3711896.3737436" target="_blank" rel="noopener">ACM SIGKDD
+                  2025</a>) and handwriting synthesis tasks (published paper at <a
+                  href="https://dl.acm.org/doi/10.1007/978-3-031-41685-9_14" target="_blank" rel="noopener">ICDAR
+                  2023</a>).</li>
+              <li>Contributed to <strong>Gemini 2.5 vision pre-training</strong>.</li>
+              <li>Co-organized the <a
+                  href="https://github.com/google-deepmind/amld_workshop_natural_interactions_with_llms" target="_blank"
+                  rel="noopener">AMLD 2025 Workshop</a> on natural interactions with foundation models, developing
+                hands-on tutorials on digital ink interactions and fine-tuning PaliGemma 2.</li>
+            </ul>
+          </div>
+
+          <!-- Yandex.Search -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-company">Yandex</h3>
+                <span class="timeline-role">Machine Learning Developer, Yandex.Search</span>
+              </div>
+              <span class="timeline-date">March 2020 – March 2022</span>
+            </div>
+            <ul class="timeline-desc">
+              <li>Worked on pre-training the YandexGPT model (currently ranked 8th place on the <a
+                  href="https://russiansuperglue.com/leaderboard/2" target="_blank" rel="noopener">Russian SuperGLUE
+                  benchmark</a>). Integrated <a href="https://arxiv.org/abs/2104.09864" target="_blank"
+                  rel="noopener">RoPE (Rotary Position Embedding)</a> into pre-training, significantly improving
+                training stability and perplexity.</li>
+              <li>Launched the first version of the <a href="https://arxiv.org/abs/2110.08207" target="_blank"
+                  rel="noopener">instruction-tuning</a> phase with subsequent releases across the company.</li>
+              <li>Optimized <a href="https://arxiv.org/abs/2106.09685" target="_blank" rel="noopener">LoRA</a>
+                performance on internal benchmarks, providing comparative analyses with prefix-tuning showing LoRA's
+                superiority for medium-scale datasets.</li>
+              <li>Enhanced factual search answers by developing a multi-stage BERT fine-tuning strategy (+6% production
+                recall). Later focused on BERT model compression via distillation for reduced resource consumption.</li>
+              <li>Supervised two research interns during my tenure on the team.</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications">
+      <div class="container reveal">
+        <h2>Publications</h2>
+        <div class="pub-list">
+
+          <!-- Pub 2 -->
+          <div class="pub-item reveal">
+            <h3 class="pub-title">MathWriting: A Dataset For Handwritten Mathematical Expression Recognition</h3>
+            <span class="pub-authors">Philippe Gervais, <strong>Anastasiia Fadeeva</strong>, Andrii Maksai</span>
+            <div class="pub-meta-row">
+              <span class="pub-venue">ACM SIGKDD 2025 Oral</span>
+              <div class="pub-links">
+                <a href="https://dl.acm.org/doi/10.1145/3711896.3737436" target="_blank" rel="noopener"
+                  class="pub-link"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pub 1 -->
+          <div class="pub-item reveal">
+            <h3 class="pub-title">Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context,
+              and Next Generation Agentic Capabilities</h3>
+            <span class="pub-authors">Gemini Team, Google (Author: <strong>Asya Fadeeva</strong>)</span>
+            <div class="pub-meta-row">
+              <span class="pub-venue">Pre-print 2025</span>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2507.06261" target="_blank" rel="noopener" class="pub-link"><i
+                    class="fa-solid fa-file-pdf"></i> Tech Report</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pub 3 -->
+          <div class="pub-item reveal">
+            <h3 class="pub-title">Natural Interactions with Foundation Models</h3>
+            <span class="pub-authors"><strong>Anastasiia Fadeeva</strong>, Blagoj Mitrevski, Claudiu Musat, Diego
+              Antognini, Leandro Kieliger, Philippe Schlattner, Vincent Coriou</span>
+            <div class="pub-meta-row">
+              <span class="pub-venue">AMLD Workshop 2025</span>
+              <div class="pub-links">
+                <a href="https://github.com/google-deepmind/amld_workshop_natural_interactions_with_llms"
+                  target="_blank" rel="noopener" class="pub-link"><i class="fa-brands fa-github"></i> Repository</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pub 4 -->
+          <div class="pub-item reveal">
+            <h3 class="pub-title">InkFM: A Foundational Model for Full-Page Online Handwritten Note Understanding</h3>
+            <span class="pub-authors"><strong>Anastasiia Fadeeva</strong>, Vincent Coriou, Diego Antognini, Claudiu
+              Musat, Andrii Maksai</span>
+            <div class="pub-meta-row">
+              <span class="pub-venue">Pre-print 2025</span>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2503.23081" target="_blank" rel="noopener" class="pub-link"><i
+                    class="fa-solid fa-file-pdf"></i> arXiv</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pub 5 -->
+          <div class="pub-item reveal">
+            <h3 class="pub-title">Representing Online Handwriting for Recognition in Large Vision-Language Models</h3>
+            <span class="pub-authors"><strong>Anastasiia Fadeeva</strong>, Philippe Schlattner, Andrii Maksai, Mark
+              Collier, Efi Kokiopoulou, Jesse Berent, Claudiu Musat</span>
+            <div class="pub-meta-row">
+              <span class="pub-venue">Pre-print 2024</span>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2402.15307" target="_blank" rel="noopener" class="pub-link"><i
+                    class="fa-solid fa-file-pdf"></i> arXiv</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pub 6 -->
+          <div class="pub-item reveal">
+            <h3 class="pub-title">DSS: Synthesizing long Digital Ink using Data augmentation, Style encoding and Split
+              generation</h3>
+            <span class="pub-authors">Aleksandr Timofeev, <strong>Anastasiia Fadeeva</strong>, Andrei Afonin, Claudiu
+              Musat, Andrii Maksai</span>
+            <div class="pub-meta-row">
+              <span class="pub-venue">ICDAR 2023 Poster</span>
+              <div class="pub-links">
+                <a href="https://dl.acm.org/doi/10.1007/978-3-031-41685-9_14" target="_blank" rel="noopener"
+                  class="pub-link"><i class="fa-solid fa-file-pdf"></i> Paper</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- Academic & Professional Activities Section -->
+    <section id="activities">
+      <div class="container reveal">
+        <h2>Academic & Professional Activities</h2>
+        <div class="activities-grid">
+
+          <!-- Research Work & Service -->
+          <div class="activity-card reveal">
+            <h3><i class="fa-solid fa-microscope"></i> Research</h3>
+            <ul class="activity-list">
+              <li>Program Committee Member for <strong><a href="https://scslworkshop.github.io/" target="_blank"
+                    rel="noopener">"Spurious Correlation and Shortcut Learning" Workshop</a></strong> at ICLR 2025.</li>
+              <li>Delivered invited talk <strong>"Image Generation Basics"</strong> at <strong><a
+                    href="https://www.epfl.ch/en/" target="_blank" rel="noopener">École Polytechnique Fédérale de
+                    Lausanne (EPFL)</a></strong> in July 2025.</li>
+              <li>Reviewed papers for <strong><a href="https://sites.google.com/corp/view/cvpr-2025-demodiv/home"
+                    target="_blank" rel="noopener">"Demographic Diversity in Computer Vision" Workshop</a></strong> at
+                CVPR 2025.</li>
+              <li>Reviewed papers for <strong><a href="https://swisstext.org/archive/2024/" target="_blank"
+                    rel="noopener">SwissText 2024</a></strong> (Scientific Research Regular track) and <strong><a
+                    href="https://www.swisstext.org/archive/2023/" target="_blank" rel="noopener">SwissText
+                    2023</a></strong> (Applied track).</li>
+              <li>Led weekly research reading group about Digital Ink & Large Language Models (LLMs) from 2023 to 2025.
+              </li>
+            </ul>
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__socials">
+        <a href="mailto:kottinew@gmail.com" class="footer__social-link" title="Email"><i
+            class="fa-regular fa-envelope"></i></a>
+        <a href="https://github.com/Fadeich" class="footer__social-link" title="GitHub" target="_blank"
+          rel="noopener"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/anastasia-fadeeva-707616135/" class="footer__social-link" title="LinkedIn"
+          target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="footer__copyright">
+        &copy; 2026 Anastasiia Fadeeva. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
